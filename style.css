@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cal-container {
+    background-color: gray;
+    max-width: 450px;
+    padding: 30px;
+}
+
+.cal-result input {
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.cal-result button {
+   font-size: 20px;
+   padding: 10px 20px;
+   background-color: orangered;
+   border: none;
+   border-radius: 5%;
+}
+
+.cal-result button:active {
+    background: rgb(231, 62, 0);
+}
+
+.cal-keys .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cal-keys .row  {
+    margin-top: 20px;
+}
+
+.cal-keys .row button {
+    width: 75px;
+    height: 40px;
+    font-size: large;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.cal-keys .row button:active {
+    background-color: rgb(219, 219, 219);
+}
+
+
+.row button:last-child{
+    width: 45px;
+}
+
+#equal{
+    background: orangered;
+}
+
+#equal:active{
+    background: rgb(231, 62, 0);
+}
